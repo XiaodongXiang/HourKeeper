@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ENhttp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+	
+
+<style type="text/css">
+ </style>
+ <script type="text/javascript">
+
+	 function uploadCheck() 
+		{
+			if (document.getElementById('file').value=="") 
+			{
+				alert('Please select the PocketInvoiceBak.zip file.');
+				return false;
+			} 
+			else if (!document.getElementById('file').value.match("\.zip$")) 
+			{
+				alert('This is not the correct backup file, please select the PocketInvoiceBak.zip file.');
+				return false;
+			} 
+			else { 
+				document.getElementById("submit").style.display='none';
+				 return true;
+			}
+		}
+		function downloadBackup(ele) {
+		 var ua = navigator.userAgent.toLowerCase();
+		 if (ua.indexOf('safari') != -1) 
+		 { 
+			 alert('Safari may unZIP the downloaded Backup and move the necessary ZIP archive to the "Trash".\n\nTo restore with this backup, you must first move the file out of the "Trash".');
+		 }
+	 }
+	
+</script>
+</head>
+<body width="880" style="background-image:url(html_bg.png);background-repeat:repeat-x:repeat-y;">
+<div style="margin:0 auto;width:880px;">
+<table width="800px" height="565px" style="text-align:left;line-height: 25px" border="0">
+<tr height="50px">
+<td colspan="2">
+<img src="./logo.png" alt="title" border="0" />
+</td>
+</tr>
+<tr height="50px">
+<td colspan="2">
+<img src="./icon_backup.png" alt="Backup" border="0" /></td>
+</tr>
+
+<tr height="60px">
+<td width="50%" valign="bottom" colspan="2">
+<strong>
+<font face="Arial" color="#393939" text-indent="10" size="2">
+Click on the linke below backup allPill Tracher data and photos as single ZIP archive to your computer
+</font>
+<br/>
+<font face="Arial" color="#40719d" size="2">
+Note: You are welcome to UnZIP the archive and get to the photos,but remember you must upload the single ZIP archive for the restore. Times New Roman 14px abb67b
+</font>
+</strong>
+</td>
+</tr>
+
+<tr height="60px">
+<td width="50%" valign="bottom">
+
+</td>
+
+<td width="30%" style="padding-left:50px"  valign="bottom">
+<a href="HoursKeeperBak.zip" class="actionLink" onclick="downloadBackup(this)"><img src="./btn_backup.png" alt="Backup" border="0" /></a>
+</td>
+
+</tr>
+
+
+<tr height="20px"><td>
+<img src="./icon_restore.png" alt="Backup" border="0" />
+</td><td></td></tr>
+
+<form action="" onsubmit="return uploadCheck()" method="post" enctype="multipart/form-data" name="form1" id="form1">
+
+<tr valign=top>
+<td colspan="2">
+<strong><font face="Arial" color="#393939" size="2">
+After you backup the data as a single ZIP archive using the link above you can restore this data back</font></strong><br />
+<strong><font face="Arial" color="#393939" size="2">
+to the same iPhone or another iPhone Georgia 16 px Od6ab2</font></strong><br />
+
+
+
+<strong><font face="Arial" color="#40719d" size="2">
+Note: This method is not the same as syncing.Restoring an iPhone using the this method will ERASE ALL data and replace with the upload backup
+</font></strong><br />
+
+
+</td>
+
+</tr>
+
+<tr valign=top>
+<td>
+<strong><font face="Arial" color="#f6f6f6" size="2">
+Choose the TBbackup.zip file and upload to the iPhone</font></strong><br />
+<input type="file" name="file" id="file" style="background-color:#efefef;"/><br /><br />
+</td>
+
+
+<td style="padding-left:50px">
+<input type="image" name="submit" id="submit" src="./btn_restore.png" alt="Restore" border="0" type="submit"/>
+
+</td>
+
+</tr>
+</form>
+
+</table>
+
+
+<table style="text-align:left;">
+<tr>
+<td>
+<strong>
+<font face="Arial" color="#ffffff" size="-1">Tips:</font>
+<br/>
+<font face="Arial" color="#ffffff" size="-1">
+<ol >
+<li>If you make a special Pocket Invoice folder on your computer to save your backups, you will be able<br/> to locate them more easily when needed.</li>
+<li>Backup your data frequently just in case your iPhone is lost or broken!</li>
+<li>Please contact us at <a href="mailto:Invoice@bhi-technologies.com" style="text-decoration:none"><font face="Arial" color="#3eabff" size="-1">Invoice@bhi-technologies.com</font></a> with any questions.</li>
+</ol>
+</font>
+</strong>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

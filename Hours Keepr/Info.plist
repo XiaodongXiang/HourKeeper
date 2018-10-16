@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSContactsUsageDescription</key>
+	<string>Contacts</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Hours Keeper</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.4.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>24</string>
+	<key>Fonts provided by application</key>
+	<array>
+		<string>Avenir LT 65 Medium.ttf</string>
+		<string>Segoe UI Bold Italic.ttf</string>
+		<string>AkzidenzGrotesk-Cond.otf</string>
+		<string>Segoe UI Bold.ttf</string>
+		<string>Segoe UI Italic.ttf</string>
+		<string>Segoe UI Light.TTF</string>
+		<string>Segoe UI Semibold.TTF</string>
+		<string>Segoe UI Semilight.TTF</string>
+		<string>Segoe UI.TTF</string>
+		<string>SEGOEUI.TTF</string>
+		<string>SEGOEUIB.TTF</string>
+		<string>SEGOEUII.TTF</string>
+		<string>SEGOEUIZ.TTF</string>
+	</array>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionMainStoryboard</key>
+		<string>MainInterface</string>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.widget-extension</string>
+	</dict>
+</dict>
+</plist>
